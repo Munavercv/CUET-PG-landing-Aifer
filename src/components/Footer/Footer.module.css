@@ -1,10 +1,36 @@
 .footer {
-    background-color: var(--primary-color);
+    background-color: var(--dark-color);
     color: white;
     border-radius: 20px;
 }
 
-.logo{
+.socialLinks ul li a span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.socialLinks ul li a span i {
+    background: linear-gradient(90deg, #2c3c8d, #02aaec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socialLinks ul li {
+    list-style: none;
+}
+
+.socialLinks i {
+    font-size: 20px;
+}
+
+
+.logo {
     max-width: 160px;
     height: auto;
 }
@@ -39,7 +65,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    .footerBottom p{
+    .footerBottom p {
         font-size: 10px;
         font-weight: 400;
     }
@@ -49,11 +75,11 @@
     text-decoration: none;
 }
 
-.footer i{
+.footer i {
     font-size: 15px;
     color: white;
 }
 
-.footer p{
+.footer p {
     color: white;
 }

@@ -9,18 +9,38 @@ const Footer = () => {
                     <div className="row mt-5 justify-content-center">
                         <div className={`col-md-4 mb-1 ${styles.brandSide} me-xl-5`}>
                             <a href="/" className="d-flex align-items-center mb-5 ms-3 link-dark text-decoration-none">
-                                <img className={styles.logo} src='https://aifer.in/_next/image?url=%2Fimages%2FAifer%20Logo%20Final%20White.png&w=256&q=75' alt="Aifer" />
+                                <img
+                                    className={styles.logo}
+                                    src='https://aifer.in/_next/image?url=%2Fimages%2FAifer%20Logo%20Final%20White.png&w=256&q=75'
+                                    alt="Aifer"
+                                />
                             </a>
 
                             <h5>Follow Aifer</h5>
                             <p className='mb-3'>Follow Aifer Education for offers, course notifications and many more on our social media accounts.</p>
 
-                            <div className="d-flex flex-column flex-sm-row justify-content-between pt-4 mb-0 social-icons">
+                            <div className={`${styles.socialLinks} d-flex flex-column flex-sm-row justify-content-between pt-4 mb-0 social-icons`}>
                                 <ul className="list-unstyled d-flex">
-                                    <li className="me-4"><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
-                                    <li className="me-4"><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                                    <li className="me-4"><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
-                                    <li className="me-4"><a href="#"><i className="fa-brands fa-youtube"></i></a></li>
+                                    <li className="me-4"><a href="#">
+                                        <span>
+                                            <i className="fa-brands fa-twitter"></i>
+                                        </span>
+                                    </a></li>
+                                    <li className="me-4"><a href="#">
+                                        <span>
+                                            <i className="fa-brands fa-facebook-f"></i>
+                                        </span>
+                                    </a></li>
+                                    <li className="me-4"><a href="#">
+                                        <span>
+                                            <i className="fa-brands fa-instagram"></i>
+                                        </span>
+                                    </a></li>
+                                    <li className="me-4"><a href="#">
+                                        <span>
+                                            <i className="fa-brands fa-youtube"></i>
+                                        </span>
+                                    </a></li>
                                 </ul>
                             </div>
 

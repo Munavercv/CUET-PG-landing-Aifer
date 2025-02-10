@@ -7,7 +7,7 @@
     font-size: 1.3rem;
     box-shadow: 3px 3px 20px 0px #00000034;
     padding: 7px 40px;
-    background: radial-gradient(circle, #6da0ca 0%, var(--primary-color) 100%);
+    background: radial-gradient(circle, var(--primary-color) 0%, var(--dark-color) 100%);
     background-size: 150%;
     transition: all 0.4s ease-in-out, color 0.3s ease;
 }

@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import styles from './Courses.module.css'
 import axios from 'axios'
+import { useDispatch } from 'react-redux'
+import { toggleShow } from '../../redux/slices/enrollPopupSlice'
 
 const Courses = () => {
+    const dispatch = useDispatch()
+
     const [courses, setCourses] = useState(null)
     const [loading, setLoading] = useState(true)
 
@@ -20,6 +24,10 @@ const Courses = () => {
 
         fetchCourses()
     }, [])
+
+    const handleEnroll = () => {
+        dispatch(toggleShow())
+    }
 
     const images = [
         'https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -61,6 +69,7 @@ const Courses = () => {
                                             <span className='text-decoration-line-through ms-2 text-secondary'>&#8377;2999</span>
                                         </div>
                                         <button
+                                            onClick={handleEnroll}
                                             className='mt-2 mb-0'
                                         >Enroll Now</button>
                                     </div>
