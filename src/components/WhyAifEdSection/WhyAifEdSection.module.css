@@ -1,0 +1,14 @@
+/* .WhyChooseAiSec{
+    background-color: #f8f0e3;
+} */
+
+.checkIcon{
+    text-align: center;
+    padding: 0.16rem 0.3rem;
+}
+
+.checkIcon i{
+    vertical-align: -.125em;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+  }

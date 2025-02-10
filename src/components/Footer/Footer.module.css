@@ -1,0 +1,59 @@
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 20px;
+}
+
+.logo{
+    max-width: 160px;
+    height: auto;
+}
+
+.brandSide h5,
+.quickLinks h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.brandSide p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.quickLinks a {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+.footer hr {
+    border: none;
+    border-bottom: 2px solid white;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.footerBottom p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+    .footerBottom p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer i{
+    font-size: 15px;
+    color: white;
+}
+
+.footer p{
+    color: white;
+}

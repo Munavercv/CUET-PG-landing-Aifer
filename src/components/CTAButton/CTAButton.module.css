@@ -1,0 +1,20 @@
+.ctaBtn {
+    border-radius: 30px;
+    background: var(--primary-color);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    box-shadow: 3px 3px 20px 0px #00000034;
+    padding: 7px 40px;
+    background: radial-gradient(circle, #6da0ca 0%, var(--primary-color) 100%);
+    background-size: 150%;
+    transition: all 0.4s ease-in-out, color 0.3s ease;
+}
+
+.ctaBtn:hover {
+    box-shadow: 3px 3px 20px 0px #0000005d;
+    color: var(--secondary-color);
+    background-size: 200%;
+    transform: scale(1.03);
+}

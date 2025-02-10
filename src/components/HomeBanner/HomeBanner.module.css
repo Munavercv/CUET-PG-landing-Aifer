@@ -1,0 +1,33 @@
+.homeBanner {
+    background: url('../../assets/CUET_banner.png') no-repeat center center;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .homeBanner {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homeBanner {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .homeBanner {
+        background: url('../../assets/CUET_banner_portrait.png.jpg') no-repeat center center;
+        background-size: cover;
+        height: 85vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
